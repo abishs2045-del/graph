@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        shock: "hsl(var(--shock))",
+        warning: "hsl(var(--warning))",
+        safe: "hsl(var(--safe))",
+        critical: "hsl(var(--critical))",
+        "node-industry": "hsl(var(--node-industry))",
+        "node-manufacturer": "hsl(var(--node-manufacturer))",
+        "node-logistics": "hsl(var(--node-logistics))",
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
       borderRadius: {
         lg: "var(--radius)",
